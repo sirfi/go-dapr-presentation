@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"appId": "order-api",
+			"appPort": 8080,
+			"httpPort": 3500,
+			"grpcPort": 50000,
+			"label": "dapr-debug",
+			"type": "dapr"
+		},
+		{
+			"appId": "order-api",
+			"label": "daprd-down",
+			"type": "daprd-down"
+		}
+	]
+}
