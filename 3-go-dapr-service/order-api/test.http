@@ -1,7 +1,8 @@
 POST http://localhost:8080/order/create HTTP/1.1
 content-type: application/json
 
-{ "name"   : "John Smith",
+{ "id": "1e7db397-d15a-4445-bc32-a48492558eeb",
+  "name"   : "John Smith",
   "sku"    : "20223",
   "price"  : 23.95,
   "shipTo" : { "name" : "Jane Smith",
@@ -19,7 +20,8 @@ content-type: application/json
 POST http://localhost:3500/v1.0/invoke/order-api/method/order/create HTTP/1.1
 content-type: application/json
 
-{ "name"   : "John Smith",
+{ "id": "1e7db397-d15a-4445-bc32-a48492558eeb",
+  "name"   : "John Smith",
   "sku"    : "20223",
   "price"  : 23.95,
   "shipTo" : { "name" : "Jane Smith",
