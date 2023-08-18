@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"appId": "invoice-api",
+			"appPort": 50053,
+			"appProtocol": "grpc",
+			"httpPort": 3503,
+			"grpcPort": 50003,
+			"label": "dapr-debug",
+			"type": "dapr"
+		},
+		{
+			"appId": "invoice-api",
+			"label": "daprd-down",
+			"type": "daprd-down"
+		}
+	]
+}
