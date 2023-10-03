@@ -1,3 +1,7 @@
+/*
+  - Interface uygulama tipinin, interfacede tanımlanan yöntemlerin
+    tam bir kümesine sahip olması gerekir.
+*/
 package main
 
 import "fmt"
@@ -20,5 +24,5 @@ func (t T) N() {
 func main() {
 	var i I = T{"hello"}
 	i.M()
-	// The result will be an error because of struct T implement interface I,but there are not enough declared methods (missing method N ())
+	// Sonuç, struct T I interface'i implementasyonu nedeniyle bir hata olacaktır, ancak yeterince bildirilen metotlar yoktur (eksik metot N ())
 }

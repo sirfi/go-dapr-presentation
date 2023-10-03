@@ -1,3 +1,10 @@
+/*
+  - Class yerine struct kullanabiliriz. Ancak yapının yalnızca özellikleri vardır ve yöntemleri yoktur.
+    Yöntemi diğer nesne yönelimli diller gibi uygulamak için,
+    işlevi alıcı argümanı adı verilen özel bir parametreyle bildirmemiz gerekecek.
+    Alıcı argümanı, func anahtar sözcüğünün ve işlev adının ortasındadır;
+    bu işlevi bir yöntem olarak uygulamak için bir tür (genellikle bir yapı) belirtir.
+*/
 package main
 
 import (

@@ -1,3 +1,8 @@
+/*
+  - Interface, bir nesnenin uyması gereken yöntem kümelerinin tanımıdır
+    (diğer nesne yönelimli dillere benzer şekilde).
+    Bir tür, interface'de bildirilen yöntemleri içerdiğinde, o interface'i destekliyor demektir.
+*/
 package main
 
 import "fmt"

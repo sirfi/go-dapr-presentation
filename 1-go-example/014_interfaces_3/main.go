@@ -1,3 +1,8 @@
+/*
+  - Herhangi bir yöntemi olmayan interface'e Emtpy Interface denir.
+    Empty Interface her tür veriyi depolayabilir, bu nedenle genellikle dinamik parametrelere
+    (tüm veri türleri) ihtiyaç duyan işlevlerin işlenmesi durumunda kullanılır.
+*/
 package main
 
 import "fmt"

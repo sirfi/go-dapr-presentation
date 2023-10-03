@@ -19,7 +19,7 @@ func func1() {
 func func2() {
 	sum := 0
 	for sum < 10 {
-		sum += sum
+		sum += 1
 	}
 	fmt.Println(sum)
 }

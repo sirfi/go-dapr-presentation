@@ -21,5 +21,6 @@ func pow(x, n, limit float64) float64 {
 }
 
 func main() {
-	pow(3, 2, 10)
+	result := pow(3, 2, 8)
+	fmt.Println(result)
 }

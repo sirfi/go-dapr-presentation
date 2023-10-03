@@ -10,7 +10,7 @@ package main
 import "fmt"
 
 func main() {
-	defer fmt.Println("World") // Delay print: "World"
-	fmt.Println("Hello")       // Print: "Hello"
-	// output : Hello World
+	defer fmt.Println("World") // Ertelenen yazdırma: "World"
+	fmt.Print("Hello ")        // Yazdırma: "Hello "
+	// çıktı : Hello World
 }
