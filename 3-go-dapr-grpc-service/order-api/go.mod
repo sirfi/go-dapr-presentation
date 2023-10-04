@@ -1,11 +1,11 @@
-module github.com/sirfi/go-dapr-presentation/4-go-dapr-grpc-service/order-api
+module github.com/sirfi/go-dapr-presentation/3-go-dapr-grpc-service/order-api
 
 go 1.20
 
 require (
 	github.com/dapr/go-sdk v1.8.0
 	github.com/redis/go-redis/v9 v9.1.0
-	github.com/sirfi/go-dapr-presentation/4-go-dapr-grpc-service/models v0.0.0
+	github.com/sirfi/go-dapr-presentation/3-go-dapr-grpc-service/models v0.0.0
 )
 
 require (
@@ -23,4 +23,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/sirfi/go-dapr-presentation/4-go-dapr-grpc-service/models => ../models
+replace github.com/sirfi/go-dapr-presentation/3-go-dapr-grpc-service/models => ../models

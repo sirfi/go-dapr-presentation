@@ -12,7 +12,7 @@ import (
 	"github.com/dapr/go-sdk/service/common"
 	daprd "github.com/dapr/go-sdk/service/http"
 	"github.com/redis/go-redis/v9"
-	"github.com/sirfi/go-dapr-presentation/3-go-dapr-service/models"
+	"github.com/sirfi/go-dapr-presentation/2-go-dapr-service/models"
 )
 
 func createOrderHandler(ctx context.Context, in *common.InvocationEvent) (out *common.Content, err error) {

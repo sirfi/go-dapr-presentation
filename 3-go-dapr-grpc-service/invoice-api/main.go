@@ -10,7 +10,7 @@ import (
 	"github.com/dapr/go-sdk/service/common"
 	daprd "github.com/dapr/go-sdk/service/grpc"
 	"github.com/redis/go-redis/v9"
-	"github.com/sirfi/go-dapr-presentation/4-go-dapr-grpc-service/models"
+	"github.com/sirfi/go-dapr-presentation/3-go-dapr-grpc-service/models"
 )
 
 func newOrderSubscriptionHandler(ctx context.Context, e *common.TopicEvent) (bool, error) {

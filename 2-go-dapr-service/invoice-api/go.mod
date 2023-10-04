@@ -1,10 +1,10 @@
-module github.com/sirfi/go-dapr-presentation/3-go-dapr-service/invoice-api
+module github.com/sirfi/go-dapr-presentation/2-go-dapr-service/invoice-api
 
 go 1.20
 
 require (
 	github.com/redis/go-redis/v9 v9.0.3
-	github.com/sirfi/go-dapr-presentation/3-go-dapr-service/models v0.0.0
+	github.com/sirfi/go-dapr-presentation/2-go-dapr-service/models v0.0.0
 )
 
 require (
@@ -27,4 +27,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/sirfi/go-dapr-presentation/3-go-dapr-service/models => ../models
+replace github.com/sirfi/go-dapr-presentation/2-go-dapr-service/models => ../models
